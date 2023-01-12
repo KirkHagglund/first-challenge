@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/*Turned .header class selector into header element selector*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +16,18 @@ header {
     color: #ffffff;
 }
 
+/*Turned .header h1 selector into h1 element selector*/
 h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*Removed .header class from h1 .seo selector*/
 h1 .seo {
     color: #d9dcd6;
 }
 
+/*Changed header div selector to a nav selector*/
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,6 +36,8 @@ nav {
     font-size: 20px;
 }
 
+/*Removed .header div ul rule: redundant*/
+/*Removed .header div ul class from li element selector*/
 li {
     display: inline-block;
     margin-left: 25px;
@@ -46,12 +52,15 @@ p {
     font-size: 16px;
 }
 
+/*Removed unneeded code from .hero rule*/
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
     object-fit: cover;
 }
+
+/*Moved .float-left and .float-right rules lower down CSS style sheet for increased readability*/
 
 .content {
     width: 75%;
@@ -70,22 +79,26 @@ p {
     background-color: #2589bd;
 }
 
+/*Combined .benefit-lead, .benefit-brand, and .benefit-cost rules into one catch all rule*/
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*Combined three rules into one .benefit h3 rule*/
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*Combined three rules into one .benefit img rule*/
 .benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*Combined three separate rules into one .box rule*/
 .box {
     margin-bottom: 20px;
     padding: 50px;
@@ -95,6 +108,7 @@ p {
     color: #ffffff;
 }
 
+/*Combined three rules into one .box img rule*/
 .box img {
     max-height: 200px;
 }
@@ -109,18 +123,17 @@ p {
     margin-left: 25px;
 }
 
+/*Combined three rules into one .box h2 rule*/
 .box h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*Changed .footer class selector to footer element selector*/
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
-footer h2 {
-    font-size: 20px;
-}
+/*Removed .footer h2 rule*/
