@@ -11,7 +11,7 @@ The changes made include adding semantic HTML tags in place of generic tags. The
 Find attached below, a screenshot of the completed HTML and CSS codes side-by-side.
 
 '''md
-![Screenshot of code](assets/images/screenshot.png)
+![Screenshot of code](assets/images/website.png)
 '''
 
 ## Credits
